@@ -1,0 +1,20 @@
+@media only screen and(max-width:768px) {
+    .logo {
+        font-size: 1em;
+    }
+    .hero_banner ul {
+        position: absolute;
+        top: 5.6em;
+        left: 0;
+    }
+    .hero_banner .navigation .fa {
+        display: block;
+    }
+    .hero_banner .banner_col-3 .col {
+        width: 100%;
+    }
+    .full_wrap .two_section .round_img {
+        width: 100%;
+        padding: 2em 10em;
+    }
+}

@@ -1,0 +1,332 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+html {
+  font-size: 15px;
+}
+
+.inner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hero_banner {
+  width: 100%;
+  background-image: url(../img/banner.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.hero_banner .navigation {
+  padding: 3em 0;
+  border-bottom: 1px solid #dfdfdf;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+}
+
+.hero_banner .navigation .logo {
+  font-size: 1.5em;
+}
+
+.hero_banner .navigation .logo .templated a:hover {
+  color: #dfdfdf;
+}
+
+.hero_banner .navigation .logo a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.hero_banner .navigation a:hover {
+  color: #3db83d;
+}
+
+.hero_banner .navigation ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.hero_banner .navigation ul li {
+  margin-right: 2em;
+  list-style: none;
+  font-size: 1.5em;
+}
+
+.hero_banner .navigation ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero_banner .navigation ul li a:hover {
+  color: #3db83d;
+}
+
+.hero_banner .navigation .fa {
+  display: none;
+  color: #fff;
+  font-size: 1.5em;
+}
+
+.hero_banner .navigation .fa a {
+  text-decoration: none;
+}
+
+.hero_banner .banner_heading {
+  width: 100%;
+  margin-top: 12em;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.hero_banner .banner_heading h1 {
+  font-size: 3.5em;
+  font-weight: 300;
+  color: #dfdfdf;
+}
+
+.hero_banner .banner_col-3 {
+  width: 100%;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.hero_banner .banner_col-3 .col {
+  width: 32%;
+  padding: 1em 0;
+  border-right: 1px solid #fff;
+}
+
+.hero_banner .banner_col-3 .col .fa {
+  color: #3db83d;
+  font-size: 2em;
+  margin: 0.7em 0;
+}
+
+.hero_banner .banner_col-3 .col h4 {
+  font-size: 2em;
+  font-weight: 300;
+  margin-bottom: 0.5;
+  color: #fff;
+}
+
+.hero_banner .banner_col-3 .col p {
+  font-size: 1.2em;
+  font-weight: 300;
+  color: #c5bcbc;
+  margin-bottom: 2em;
+}
+
+.hero_banner .banner_col-3 .no_border {
+  border: 0;
+}
+
+.hero_banner .banner_col-3 button {
+  width: 170px;
+  height: 40px;
+  font-size: 1.2em;
+  font-weight: 300;
+  border-radius: 2em;
+  background-color: transparent;
+  border: 2px solid #079907;
+  font-family: 'Roboto', sans-serif;
+  margin: 0 auto;
+  margin-bottom: 2em;
+}
+
+.hero_banner .banner_col-3 button a {
+  color: green;
+  text-decoration: none;
+}
+
+.full_wrap {
+  width: 100%;
+}
+
+.full_wrap .two_section {
+  max-width: 768px;
+  padding: 40px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.full_wrap .two_section .round_img {
+  width: 35%;
+  text-align: center;
+}
+
+.full_wrap .two_section .round_img img {
+  border-radius: 5em;
+}
+
+.full_wrap .two_section .round_img h2 {
+  font-size: 1.5em;
+  font-weight: 300;
+  line-height: 1.4em;
+  color: #a19b9b;
+}
+
+.full_wrap .two_section .round_img p {
+  font-size: 1em;
+  font-weight: 300;
+  line-height: 1.6em;
+  color: #c4bebe;
+}
+
+.full_wrap .two_section .round_img button {
+  width: 170px;
+  height: 40px;
+  font-size: 1.2em;
+  font-weight: 300;
+  border-radius: 2em;
+  background-color: transparent;
+  border: 2px solid #079907;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 1.2em;
+}
+
+.full_wrap .two_section .round_img button a {
+  color: green;
+  text-decoration: none;
+}
+
+footer {
+  width: 100%;
+  background-color: #3db83d;
+  text-align: center;
+}
+
+footer .title {
+  font-size: 1.7em;
+  font-weight: 400;
+  color: #fff;
+  padding: 3em 0 1em 0;
+  text-align: center;
+}
+
+footer .user-details {
+  width: 100%;
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .user-details .input_box {
+  width: calc(100% / 2 - 30px);
+}
+
+footer .user-details .input_box .details {
+  font-size: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 0.2em;
+  color: #fff;
+}
+
+footer .user-details .input_box input {
+  width: 100%;
+  height: 40px;
+  border-radius: 3px;
+  border: 0;
+}
+
+footer .user-details .message {
+  width: calc(100% / 1);
+}
+
+footer .user-details .message .details {
+  font-size: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 0.2em;
+  color: #fff;
+}
+
+footer .user-details .message textarea {
+  width: 100%;
+  height: 170px;
+}
+
+footer button {
+  width: 190px;
+  height: 50px;
+  background-color: transparent;
+  border-radius: 3em;
+  border: 4px solid #fff;
+  font-size: 1em;
+  font-weight: 300;
+  color: #fff;
+  margin-bottom: 2em;
+}
+
+footer span {
+  font-size: 1em;
+  color: #fff;
+  margin-bottom: 8em;
+}
+
+@media only screen and (max-width: 768px) {
+  .logo {
+    font-size: 1em;
+  }
+  .hero_banner ul {
+    position: absolute;
+    top: 5.6em;
+    left: 0;
+  }
+  .hero_banner .navigation .fa {
+    display: block;
+  }
+  .hero_banner .banner_col-3 .col {
+    width: 100%;
+  }
+  .full_wrap .two_section .round_img {
+    width: 100%;
+    padding: 2em 10em;
+  }
+}
+/*# sourceMappingURL=style.css.map */
