@@ -328,5 +328,42 @@ footer span {
     width: 100%;
     padding: 2em 10em;
   }
+  .full_wrap .two_section .round_img {
+    padding: 3em 0;
+  }
+  footer .user-details .input_box {
+    width: 100%;
+    margin-bottom: 1em;
+  }
+  footer button {
+    margin-top: 4.7em;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  ul {
+    width: 100%;
+    background-color: gray;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: absolute;
+    left: 0;
+    top: 43px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .full_wrap .two_section .round_img {
+    padding: 3em 0;
+  }
+  footer .user-details .input_box {
+    width: 100%;
+    margin-bottom: 1em;
+  }
+  footer button {
+    margin-top: 4.7em;
+  }
 }
 /*# sourceMappingURL=style.css.map */
