@@ -354,6 +354,7 @@ footer span {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    display: none;
   }
   .full_wrap .two_section .round_img {
     padding: 3em 0;
